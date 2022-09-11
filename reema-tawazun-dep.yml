@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: tawazun-deploy
-  namespace: mshaikh-tawazun
+  namespace: reema-tawazun
   labels:
     app: tawazun
     service: tawazun-svc
@@ -20,7 +20,7 @@ spec:
         service: tawazun-svc
     spec:
       containers:
-        - image: mshaikh911/tawazun
+        - image: rmrmhm23/tawazun
           name: tawazun
           resources: 
             requests: 

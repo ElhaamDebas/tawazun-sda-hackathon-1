@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cluster-ip-service
-  namespace: mshaikh-tawazun
+  namespace: reema-tawazun
   labels:
     app: sql
-    name: MohammedShaikh
+    name: reema
 spec:
   type: ClusterIP
   ports:
